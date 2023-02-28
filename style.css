@@ -13,7 +13,7 @@
     --font-sub-titulo:'Raleway';
     --font-corpo:'Inter';
     
-    --cor1: #EBECF2;
+    --cor1: #faf1ec;
     --cor2: #AAADBF;
     --cor3: #404873;
     --cor4: #252C5C;
@@ -37,15 +37,18 @@
 }
 body{
     overflow-x: hidden;
+    
+}
+main{
+    
 }
 
 
 
 #imagemhome{
     min-width: 100%;
-    margin-right: 350px;
-    padding: 0;
-    margin: 0;
+    max-height: 330px;
+   
 
 }
 #oescritorio{
@@ -56,7 +59,7 @@ body{
     padding-bottom: 50px;
     padding-left: 5%;
     padding-right: 5%;
-    margin-right: 0;
+    
     
    
    
@@ -130,9 +133,14 @@ body{
   padding-right: 5%;
 
 }
+#direitomedicodireitodoconsumidor{
+    margin-bottom: 5px;
+
+}
 
 #imgapertodemaos{
     border: none;
+    padding-top: 10%;
 }
 
 
@@ -150,6 +158,13 @@ body{
   font-size: 250%;
   font-weight: bolder;
   color:#faf1ec;
+}
+#titulos3{
+    font-family: var(--font-titulo);
+  text-align: left;
+  font-size: 180%;
+  font-weight: bolder;
+  color:#1a1c40;
 }
 
 #corpodetexto1{
@@ -170,4 +185,47 @@ body{
     line-height:130% ;
     font-weight: bold;
     color:#faf1ec;
+}
+
+#corpodetexto3{
+    font-family: var(--font-corpo);
+    text-align: left;
+    margin-top: 15px;
+    font-size: 110% ;
+    line-height:100% ;
+    font-weight: bold;
+    color:#1a1c40 ;
+}
+
+
+#caixaprofss{
+    background-color:#faf1ec ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    list-style: none;
+
+}
+#jacju{
+    padding-top: 10px;
+
+}
+#pqferreiraemassoni{
+    background-image:url(imagens/FUNDO2.jpg) ;
+    color: var(--cor1);
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    margin-top: 5px;
+   
+    
+
+}
+#caixaspqfm{
+    border: 2px solid var(--cor1) ;
 }
