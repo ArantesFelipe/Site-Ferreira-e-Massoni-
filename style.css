@@ -232,4 +232,5 @@ main{
 #caixaspqfm{
     border: 2px solid var(--cor1) ;
     margin-left: 15px;
+    margin-bottom: 15px;
 }
