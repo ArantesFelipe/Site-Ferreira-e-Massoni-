@@ -43,6 +43,60 @@ main{
     
 }
 
+#titulos1{
+  font-family: var(--font-titulo);
+  text-align: center;
+  font-size: 250%;
+  font-weight: bolder;
+  color:#1a1c40 ;
+}
+
+#titulos2{
+  font-family: var(--font-titulo);
+  text-align: center;
+  font-size: 250%;
+  font-weight: bolder;
+  color:#faf1ec;
+}
+#titulos3{
+  font-family: var(--font-titulo);
+  text-align: left;
+  font-size: 180%;
+  font-weight: bolder;
+  color:#1a1c40;
+}
+
+#corpodetexto1{
+     font-family: var(--font-corpo);
+    text-align: center;
+    margin-top: 15px;
+    font-size: 110% ;
+    line-height:130% ;
+    font-weight: bold;
+    color:#1a1c40 ;
+}
+
+#corpodetexto2{
+    font-family: var(--font-corpo);
+    text-align: center;
+    margin-top: 15px;
+    font-size: 110% ;
+    line-height:130% ;
+    font-weight: bold;
+    color:#faf1ec;
+}
+
+#corpodetexto3{
+    font-family: var(--font-corpo);
+    text-align: left;
+    margin-top: 15px;
+    font-size: 110% ;
+    line-height:100% ;
+    font-weight: bold;
+    color:#1a1c40 ;
+}
+
+
 
 
 #imagemhome{
@@ -80,6 +134,7 @@ main{
   #areadeatuacao{
     margin-top: 5px;
     padding-top: 70px;
+    text-align: center;
     
     background-color: #f4f1ec;
     height: 150px;
@@ -144,59 +199,6 @@ main{
 }
 
 
-#titulos1{
-    font-family: var(--font-titulo);
-  text-align: center;
-  font-size: 250%;
-  font-weight: bolder;
-  color:#1a1c40 ;
-}
-
-#titulos2{
-    font-family: var(--font-titulo);
-  text-align: center;
-  font-size: 250%;
-  font-weight: bolder;
-  color:#faf1ec;
-}
-#titulos3{
-    font-family: var(--font-titulo);
-  text-align: left;
-  font-size: 180%;
-  font-weight: bolder;
-  color:#1a1c40;
-}
-
-#corpodetexto1{
-    font-family: var(--font-corpo);
-    text-align: center;
-    margin-top: 15px;
-    font-size: 110% ;
-    line-height:130% ;
-    font-weight: bold;
-    color:#1a1c40 ;
-}
-
-#corpodetexto2{
-    font-family: var(--font-corpo);
-    text-align: center;
-    margin-top: 15px;
-    font-size: 110% ;
-    line-height:130% ;
-    font-weight: bold;
-    color:#faf1ec;
-}
-
-#corpodetexto3{
-    font-family: var(--font-corpo);
-    text-align: left;
-    margin-top: 15px;
-    font-size: 110% ;
-    line-height:100% ;
-    font-weight: bold;
-    color:#1a1c40 ;
-}
-
 
 #caixaprofss{
     background-color:#faf1ec ;
@@ -222,10 +224,12 @@ main{
     padding-right: 5%;
 
     margin-top: 5px;
+    text-align: center;
    
     
 
 }
 #caixaspqfm{
     border: 2px solid var(--cor1) ;
+    margin-left: 15px;
 }
