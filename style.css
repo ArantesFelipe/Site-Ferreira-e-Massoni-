@@ -66,6 +66,14 @@ main{
   color:#1a1c40;
 }
 
+#titulo4{
+    font-family: var(--font-titulo);
+    font-size: 150%;
+    margin-top: 10px;
+    text-align: center;
+    color: var(--cor1);
+}
+
 #corpodetexto1{
      font-family: var(--font-corpo);
     text-align: center;
@@ -133,7 +141,8 @@ main{
 
   #areadeatuacao{
     margin-top: 5px;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     text-align: center;
     
     background-color: #f4f1ec;
@@ -231,6 +240,6 @@ main{
 }
 #caixaspqfm{
     border: 2px solid var(--cor1) ;
-    margin-left: 15px;
-    margin-bottom: 15px;
+    margin: 15px;
+    font-family: var(--font-corpo);
 }
