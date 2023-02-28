@@ -27,13 +27,27 @@
 *{
     padding: 0px;
     margin: 0px;
+    
+
 
     
 
 
     
 }
+body{
+    overflow-x: hidden;
+}
 
+
+
+#imagemhome{
+    min-width: 100%;
+    margin-right: 350px;
+    padding: 0;
+    margin: 0;
+
+}
 #oescritorio{
   
     background-color: #faf1ec;
@@ -42,6 +56,7 @@
     padding-bottom: 50px;
     padding-left: 5%;
     padding-right: 5%;
+    margin-right: 0;
     
    
    
@@ -55,7 +70,7 @@
     padding-bottom: 50px;
     padding-left: 5%;
     padding-right: 5%;
-     
+    margin-left: 0;
   }
 
 
@@ -114,4 +129,45 @@
   padding-left: 5%;
   padding-right: 5%;
 
+}
+
+#imgapertodemaos{
+    border: none;
+}
+
+
+#titulos1{
+    font-family: var(--font-titulo);
+  text-align: center;
+  font-size: 250%;
+  font-weight: bolder;
+  color:#1a1c40 ;
+}
+
+#titulos2{
+    font-family: var(--font-titulo);
+  text-align: center;
+  font-size: 250%;
+  font-weight: bolder;
+  color:#faf1ec;
+}
+
+#corpodetexto1{
+    font-family: var(--font-corpo);
+    text-align: center;
+    margin-top: 15px;
+    font-size: 110% ;
+    line-height:130% ;
+    font-weight: bold;
+    color:#1a1c40 ;
+}
+
+#corpodetexto2{
+    font-family: var(--font-corpo);
+    text-align: center;
+    margin-top: 15px;
+    font-size: 110% ;
+    line-height:130% ;
+    font-weight: bold;
+    color:#faf1ec;
 }
