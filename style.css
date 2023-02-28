@@ -105,7 +105,36 @@ main{
 }
 
 
-
+.CONTATE-NOS{
+    position: absolute;
+    
+    
+    left: 5.5%;
+    top: 40%;
+  
+    font-family: var(--font-titulo);
+    color: var(--cor1);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    font-size: 80%;
+    background:#5b6ffa;
+    padding: 8px 8px 8px 8px;
+    border-radius: 7%;
+    text-align: center;
+    
+    
+  
+  
+  }
+  
+  
+  
+  header  a:hover{
+    background-color:var(--cor4);
+    color: #AAADBF;
+    border-radius: 5%;
+  }
 
 #imagemhome{
     min-width: 100%;
