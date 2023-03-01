@@ -105,15 +105,7 @@ main{
    
 }
 header{
-    background-image:url("imagens/Home2.jpg");
-    background-position: left top;
-    image-rendering: optimizeSpeed;
-    background-repeat: no-repeat;
-    
-    height: 680px;
-
-    width: 1400px;
-    
+   
 }
 
 .CONTATE-NOS{
