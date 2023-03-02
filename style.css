@@ -104,9 +104,7 @@ main{
     color:#1a1c40 ;
    
 }
-header{
-   
-}
+
 
 .CONTATE-NOS{
     position: absolute;
@@ -274,3 +272,38 @@ header{
     margin: 15px;
     font-family: var(--font-corpo);
 }
+
+#contatenos{
+    background-color: var(--cor1);
+    
+    margin-top: 5px;
+    padding-top: 170px;
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+   
+    list-style: none;
+
+
+
+}
+
+#contatosfooter{
+    font-family: var(--font-corpo);
+    font-size: 160%;
+    padding-bottom: 18px;
+    text-decoration: none;
+    color: #050E40;
+    list-style: none;
+
+}
+
+
+
+div a:hover{
+    text-decoration: none;
+    color: #050E40;
+    
+
+}
+
