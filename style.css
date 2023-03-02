@@ -51,6 +51,8 @@ main{
   color:#1a1c40 ;
 }
 
+
+
 #titulos2{
   font-family: var(--font-titulo);
   text-align: center;
@@ -72,6 +74,14 @@ main{
     margin-top: 10px;
     text-align: center;
     color: var(--cor1);
+}
+#titulo5{
+    font-family: var(--font-titulo);
+    font-size: 250%;
+    text-align: left;
+    color: var(--cor5);
+    padding-top: 25px;
+
 }
 
 #corpodetexto1{
@@ -106,42 +116,10 @@ main{
 }
 
 
-.CONTATE-NOS{
-    position: absolute;
-    
-    
-    left: 5.5%;
-    top: 40%;
-  
-    font-family: var(--font-titulo);
-    color: var(--cor1);
-    text-decoration: none;
-    font-size: larger;
-    font-weight: bolder;
-    font-size: 80%;
-    background:#5b6ffa;
-    padding: 8px 8px 8px 8px;
-    border-radius: 7%;
-    text-align: center;
-    
-    
-  
-  
-  }
-  
-  
-  
-  header  a:hover{
-    background-color:var(--cor4);
-    color: #AAADBF;
-    border-radius: 5%;
-  }
 
-#imagemhome{
-   
    
 
-}
+
 #oescritorio{
   
     background-color: #faf1ec;
@@ -277,12 +255,13 @@ main{
     background-color: var(--cor1);
     
     margin-top: 5px;
-    padding-top: 170px;
+    padding-top: 150px;
     padding-bottom: 50px;
     padding-left: 5%;
     padding-right: 5%;
    
     list-style: none;
+   
 
 
 
@@ -291,14 +270,22 @@ main{
 #contatosfooter{
     font-family: var(--font-corpo);
     font-size: 160%;
-    padding-bottom: 18px;
+    padding-top: 10px;
     text-decoration: none;
     color: #050E40;
     list-style: none;
 
 }
 
+#contatosfooter2{
+    font-family: var(--font-corpo);
+    font-size: 160%;
+    padding-top: 10px;
+    text-decoration: none;
+    color:#4481f1;
+    list-style: none;
 
+}
 
 div a:hover{
     text-decoration: none;
@@ -306,4 +293,10 @@ div a:hover{
     
 
 }
+
+#horario{
+    padding-top: 30px;
+   
+}
+
 
