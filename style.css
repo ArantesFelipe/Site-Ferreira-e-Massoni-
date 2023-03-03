@@ -38,15 +38,42 @@
 body{
     overflow-x: hidden;
     
+    
 }
 
 
+nav{
+    background-color: #09202e;
+    text-align: center;
+    font-family: var(--font-titulo);
+    color: white;
+    
+    
+
+}
+nav a:hover{
+    text-decoration: none;
+    background-color:#6aacd4 ;
+    border-radius: 5%;
+    
+
+
+}
+
+main{
+    background-color: #aebcc7;
+}
+#fontenav{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 #titulos1{
   font-family: var(--font-titulo);
   text-align: center;
   font-size: 250%;
   font-weight: bolder;
-  color:#1a1c40 ;
+  color:white ;
 }
 
 
@@ -56,7 +83,7 @@ body{
   text-align: center;
   font-size: 250%;
   font-weight: bolder;
-  color:#faf1ec;
+  color:#071e2c;
 }
 #titulos3{
   font-family: var(--font-titulo);
@@ -89,7 +116,7 @@ body{
     font-size: 110% ;
     line-height:130% ;
     font-weight: bold;
-    color:#1a1c40 ;
+    color:white ;
 }
 
 #corpodetexto2{
@@ -99,7 +126,7 @@ body{
     font-size: 110% ;
     line-height:130% ;
     font-weight: bold;
-    color:#faf1ec;
+    color:#071e2c;
 }
 
 #corpodetexto3{
@@ -115,12 +142,12 @@ body{
 
 
 
-   
+
 
 
 #oescritorio{
   
-    background-color: #faf1ec;
+    background-color:#03304b;
     
     padding-top: 100px;
     padding-bottom: 50px;
@@ -134,7 +161,7 @@ body{
   
   }
   #assesoriajuridica{
-    background-color:#5b6ffa ;
+    background-color:#6aacd4 ;
     
     padding-top: 100px;
     padding-bottom: 50px;
@@ -150,22 +177,22 @@ body{
     padding-bottom: 20px;
     text-align: center;
     
-    background-color: #f4f1ec;
+    background-color:#09202e;
     height: 150px;
 }
 
 #Trabalhista{  
-    background-color: #c8d2ff;
+    background-color: #09202e;
     
     padding-bottom: 50px;
-    padding-left: 2.66%;
-    padding-right: 2.66%;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 20px;
 
 }
 
 #execucaodecontratos{
-    background-color:#aacdf1;
+    background-color:#09202e;
     
     padding-bottom: 50px;
     padding-left:2.66%;
@@ -174,7 +201,7 @@ body{
 
 }
 #direitosucessorio{
-    background-color:#85acf6;
+    background-color:#09202e;
     
     padding-bottom: 50px;
     padding-left:2.66%;
@@ -184,7 +211,7 @@ body{
 }
 
 #direitomedico{
-    background-color:#6387ca;
+    background-color:#09202e;
    
     padding-top: 50px;
     padding-bottom: 50px;
@@ -194,7 +221,7 @@ body{
 }
 
 #direitodoconsumidor{
-  background-color:#3d5d99;
+  background-color:#09202e;
   
   padding-top: 50px;
   padding-bottom: 50px;
@@ -215,7 +242,7 @@ body{
 
 
 #caixaprofss{
-    background-color:#faf1ec ;
+    background-color:#aebcc7 ;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 5%;
