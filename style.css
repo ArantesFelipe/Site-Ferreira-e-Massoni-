@@ -267,7 +267,7 @@ body{
 
 #contatosfooter{
     font-family: var(--font-corpo);
-    font-size: 160%;
+    font-size: 100%;
     padding-top: 10px;
     text-decoration: none;
     color: #050E40;
