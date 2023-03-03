@@ -108,6 +108,14 @@ main{
     padding-top: 25px;
 
 }
+#titulo6{
+    font-family: var(--font-titulo);
+  text-align: center;
+  font-size: 250%;
+  font-weight: bolder;
+  color:#1a1c40;
+
+}
 
 #corpodetexto1{
      font-family: var(--font-corpo);
