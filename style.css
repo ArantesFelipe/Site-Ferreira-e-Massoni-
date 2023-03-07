@@ -116,6 +116,12 @@ main{
   color:#1a1c40;
 
 }
+#titulos7{
+    font-family: var(--font-titulo);
+    text-align: center;
+    font-size: 250%;
+    font-weight: bolder;
+    color:white;}
 
 #corpodetexto1{
      font-family: var(--font-corpo);
